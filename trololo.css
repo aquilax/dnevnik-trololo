@@ -1,0 +1,9 @@
+.trololo-overlay {
+	background: #F0F0F0;
+	cursor: pointer;
+	border-bottom: 1px dotted #000;
+	margin:0;
+}
+.trololo-overlay > table {
+	visibility: hidden;
+}
