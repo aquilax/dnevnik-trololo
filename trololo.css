@@ -7,3 +7,6 @@
 .trololo-overlay > table {
 	visibility: hidden;
 }
+.trololo-overlay > table h4, .trololo-overlay > table .loadlate {
+	visibility: visible;
+}
