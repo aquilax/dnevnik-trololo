@@ -1,0 +1,23 @@
+.trololo-overlay {
+	background: #F0F0F0;
+	border-bottom: 1px dotted #000;
+	cursor: pointer;
+	margin:0;
+}
+.trololo-overlay > table {
+	visibility: hidden;
+}
+.trololo-overlay > table h4, .trololo-overlay > table .lgshowprofile {
+	visibility: visible;
+}
+.trololo-ban {
+	background: #c33;
+	border: 1px solid #cecece;
+	border-radius: 3px;
+	font-weight: bold;
+	margin-top: -1px;
+	padding: 0.16em .3em 0.12em;
+}
+.trololo-ban a, .trololo-ban a:visited {
+	color: #fff;
+}

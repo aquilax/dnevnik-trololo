@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Дневник Трольольо",
+  "description": "Скриване на коментарите от избрани от вас потребители",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon_19.png"
+  },
+  "icons": {
+    "16": "icon_16.png",
+    "48": "icon_48.png",
+    "128": "icon_128.png"
+  },
+  "content_scripts": [{
+    "matches": ["http://www.dnevnik.bg/*","https://www.dnevnik.bg/*"],
+    "css": ["trololo.css"],
+    "js": ["jquery-3.1.1.slim.min.js", "trololo.js"]
+  }]
+}
